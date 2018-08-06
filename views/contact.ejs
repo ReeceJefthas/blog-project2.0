@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+  <style media="screen">
+  body {
+    background-color:#6F5D67;
+  }
+  .h1, .h2, .h3, h1, h2, h3 {
+    margin-top: -7px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  form {
+    width: 100%;
+  }
+  .navbar-inverse {
+    background-color:#557CBE;
+  }
+  .navbar-inverse .navbar-nav>li>a {
+    color: black;
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: black;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: grey;
+    border-color: black;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #141510;
+    border-color: white;
+  }
+  .panel-default>.panel-heading {
+    color: white;
+    background-color: #557CBE;
+    border-color: #585f40;
+  }
+  .jumbotron{background-image: url(../images/contact-picture.jpg);
+    height: 630px;
+    background-size: cover;}
+    .panel-footer {
+      padding: 10px 15px;
+      background-color:#557CBE;
+      border-top: 1px solid #ddd;
+      border-bottom-right-radius: 3px;
+      border-bottom-left-radius: 3px;
+    }
+    .panel-body {
+      padding: 15px;
+      background-color: white;
+    }
+    .btn-primary {
+      color: #fff;
+      background-color: #4B7E49;
+      border-color: #3988E3;
+    }
+    .btn-primary:hover {
+      color: white;
+      background-color:#5A7DFF;
+      border-color:#71EDFF;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <nav class="navbar navbar-inverse col-lg-12">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#"><h1>League Of Heroes</h1></a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="/create">New post</a></li>
+              <li><a href="/archive">Archive</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/profile">profile</a></li>
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+
+      <div class="row">
+        <div class="jumbotron col-lg-12 image">
+
+        </div>
+
+
+
+
+
+        <div class="panel panel-default">
+          <div class="panel-heading">Contact</div>
+        </div>
+
+        <form method="POST">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="First Name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="text" class="form-control" name="phone" id="phone" placeholder="phone number">
+          </div>
+          <div>
+            <label for="summernote">Comment</label>
+            <textarea class="summernote" name="story"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Post</button>
+        </form>
+      </div>
+      <br>
+      <div class="panel panel-default">
+        <div class="panel-heading">Contact Me:</div>
+      </div>
+      <div class="panel-body">
+        <h2>Email:Reece.jefthas@gmail.com</h2>
+        <h2>Phone number: 0814175047</h2>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-footer">Copyright@LeagueOfHeroes2018</div>
+      </div>
+      <script type="text/javascript">
+      $(document).ready(function() {
+        $('.summernote').summernote();
+      });
+      </script>
+    </body>
+    </html>

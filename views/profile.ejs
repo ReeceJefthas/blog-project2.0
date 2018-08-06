@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<style media="screen">
+body{
+  background-color: #24293F;
+}
+.panel-default>.panel-heading {
+  color:#A61E1E;
+  background-color:#E3900E;
+  border-color: #ddd;
+}
+.navbar-inverse {
+  background-color: #217EBB;
+}
+.panel-footer {
+  background-color: #217EBB;
+  color: white;
+  text-align: center;
+}
+.image {
+  background-image: url("../images/League Of Heroes.jpg");
+  background-size: 100% 100%;
+}
+</style>
+<body>
+  <div class="container">
+    <div class="row">
+      <nav class="navbar navbar-inverse col-lg-12">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"><h1>League Of Heroes</h1></a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/create">New post</a></li>
+            <li><a href="/archive">Archive</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <% if (user) { %>
+              <li><a href="/auth/logout">logout</a></li>
+              <% } else {%>
+                <li><a href="/auth/login">login</a></li>
+                <% } %>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">welcome to your profile,<%=user.username %></div>
+        </div>
+        <div class="row">
+          <div class="jumbotron col-lg-12 image">
+
+          </div>
+        </div>
+
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-footer">Copyright@LeagueOfHeroes2018</div>
+      </div>
+    </body>
+    </html>

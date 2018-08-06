@@ -1,0 +1,83 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:#E53F3E;
+}
+
+a {
+  color: #C55935;
+}
+
+.container-fluid ul {
+  display: inline;
+}
+
+.panel-footer {
+  background-color: #C55935;
+  color:#C55935;
+  text-align: center;
+}
+.archive {
+  background-color: #d3d3d3;
+}
+.panel-heading {
+  text-align: center;
+  font-size: 40px;
+}
+.panel-default {
+  width: 100%;
+}
+.image {
+  background-image: url("../images/header-picture.jpg");
+  height: 428px;
+  background-size: 100% 100%;
+}
+
+.panel-body {
+  padding: 30px;
+
+}
+.navbar-inverse {
+  background-color:#8BB6CA;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+  font-size: 20px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  color:black;
+}
+.panel-primary>.panel-heading {
+  color: #fff;
+  background-color:#8BB6CA;
+  border-color: black;
+}
+.panel-footer {
+  background-color:#8BB6CA;
+  color: white;
+  text-align: center;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #C55935;
+  border-color: #C55935;
+}
+
+/* .col-lg-6 {
+height: 157%;
+} */
+.panel-body.col-lg-6 {
+  font-size: 30px;
+}
+h1.titel {
+  color:#C55935;
+}
+.panel-primary {
+  border-color: #C55935;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color:#71EDFF;
+  border-color:#71EDFF;
+}
