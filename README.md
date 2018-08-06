@@ -1,7 +1,7 @@
-# blog-project2.0
-*download blog-project
-*install node
-*open command line-nodemon start
-*open another command line-json-server --watch db.json --port 8000
-*open browser on localhost3000
-*use dummy google account provided to check if login works.
+# blog-project2.0<br>
+*download blog-project<br>
+*install node<br>
+*open command line-nodemon start<br>
+*open another command line-json-server --watch db.json --port 8000<br>
+*open browser on localhost3000<br>
+*use dummy google account provided to check if login works.<br>
